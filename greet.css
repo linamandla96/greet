@@ -1,0 +1,70 @@
+body{
+
+    background-color:grey;
+
+}
+.greet{
+
+    background-color:teal;
+     width: 30%;
+     padding-bottom: 10%;
+     padding-right: 10%;
+     height: 60%;
+     border: 5px solid;
+     margin-left: 30%;
+     margin-top: 5%;
+     padding-left: 10%;
+     
+    
+}
+.row1{
+ border: 2px solid;
+ padding-top: 2%;
+ padding-left: 15%;
+ margin-top: 10%;
+ margin-left: 10%;
+
+}
+.english{
+ margin: 2%;
+
+}
+.xhosa{
+    margin: 2%;
+}
+.sotho{
+    margin: 2%;
+}
+.greet h3{
+margin-left: 90%;
+
+    
+}
+.counter{
+    margin: 100%;
+}
+.errors {
+    color: darkred;
+    margin-top: 5%;
+}
+.greetmebtn{
+
+    margin-top: 10%
+    
+}
+.resetbtn{
+    margin-left: 10%;
+}
+.displayname{
+    margin-top: 50%;
+}
+@media(max-width:447px) {
+    .greet{
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+    }
+}
+.row2{
+    margin-right: 50%;
+}
